@@ -59,8 +59,16 @@ LPIPS
 
 ------------  
 3) Style results (Some examples)
-- Room
-![2^24_hash_table_002](https://github.com/KyujinHan/FST-NeRF/assets/98331298/d2feaae3-4fae-4fa5-b5f1-21d8577240bc)  
+- **Room**  
+![2^24_hash_table_002](https://github.com/KyujinHan/FST-NeRF/assets/98331298/d2feaae3-4fae-4fa5-b5f1-21d8577240bc)
+
+
+- Trex
+
+- Flower
+
+- Horn
+
 
 # Citation
 ```

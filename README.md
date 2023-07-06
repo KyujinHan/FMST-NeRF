@@ -63,9 +63,9 @@ LPIPS
 
 ------------  
 3) Style results (Some examples)
-- **Fern, Room, Trex, Leaves**
-![ezgif com-gif-maker](https://github.com/KyujinHan/FST-NeRF/assets/98331298/c839f2c1-707c-4dd9-a11c-9f4f4f3799cb)
-![ezgif com-gif-maker](https://github.com/KyujinHan/FST-NeRF/assets/98331298/2df947f0-6522-4310-9936-eb782512a7b8)
+- **Fern, Room, Trex, Leaves**  
+![ezgif com-gif-maker](https://github.com/KyujinHan/FST-NeRF/assets/98331298/c839f2c1-707c-4dd9-a11c-9f4f4f3799cb)  
+![ezgif com-gif-maker](https://github.com/KyujinHan/FST-NeRF/assets/98331298/2df947f0-6522-4310-9936-eb782512a7b8)  
   
 - **Flower**
  

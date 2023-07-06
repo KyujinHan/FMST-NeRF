@@ -49,7 +49,7 @@ python run_nerf2.py --config configs/fern.txt --finest_res 512 --log2_hashmap_si
   
 # Testing
 ------------
-You must change the `Stylizagion training` folder name like `second_0`.
+You must change the `Stylization(Second) training` folder name like `'second_0'`.
 And, implement below code.
 ```
 python run_nerf2.py --config configs/fern.txt --finest_res 512 --log2_hashmap_size 24 --lrate2 0.001 --stage second --no_batching --render_only

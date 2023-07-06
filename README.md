@@ -21,7 +21,10 @@ You can download [WikiArt](https://github.com/cs-chan/ArtGAN/blob/master/WikiArt
 Also, you can find the WikiArt files other Stylization-NeRF-Project.  
 
 # Training 
-(Soon)  
+------------
+## Geometric training
+
+## Stylization training
 
 # Testing
 (Soon)  

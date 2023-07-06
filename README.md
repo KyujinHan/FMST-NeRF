@@ -63,17 +63,20 @@ LPIPS
 
 ------------  
 3) Style results (Some examples)
+- **Fern**
+
+  
 - **Room**  
 ![ezgif com-gif-maker](https://github.com/KyujinHan/FST-NeRF/assets/98331298/2df947f0-6522-4310-9936-eb782512a7b8)
   
-- Flower
+- **Flower**
  
 
 https://github.com/KyujinHan/FST-NeRF/assets/98331298/b218fee0-42bf-439a-bae7-58d811cc1c7e
 
 
   
-- Horn
+- **Horn**
 
 
 https://github.com/KyujinHan/FST-NeRF/assets/98331298/381aa559-d44e-4f45-bea4-2deb653d7132

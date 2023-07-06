@@ -27,7 +27,8 @@ Also, you can find the WikiArt files other Stylization-NeRF-Project.
 (Soon)  
 
 # Performance (Soon update)
-1) LPIPS
+------------  
+LPIPS  
 - Short consistency score (2 frames)
   
 | Method | Fern | Flower | Horns | Orchids | Trex | Leaves |
@@ -51,9 +52,12 @@ Also, you can find the WikiArt files other Stylization-NeRF-Project.
 | `UPST` | **0.3969** | 0.3362 | NaN | NaN | NaN | 0.3081 |  
 | `StyleRF` | NaN | 0.3543 | 0.4432 | 0.4557 | 0.3397 | NaN |  
 | `Ours` | 0.4065 | **0.3167** | 0.3979 | 0.4108 | 0.2895 | **0.2911** |  
-  
+
+------------  
 2) User Study
 
+
+------------  
 3) Style results
 
 

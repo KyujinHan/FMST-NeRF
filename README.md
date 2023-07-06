@@ -36,6 +36,16 @@ wikiart
 ```
   
 # Training(For example, fern training.)
+### Download VAE pre-weights.
+We provide [VAE pre-weights](Not yet).  
+Download files, and input `./pretrained` folder.
+```
+pretrained
+├── nerf_llff_data                    
+│   ├── fc_encoder_iter_160000.pth
+|   └── vgg_normalised.pth  
+```
+
 ### Geometric training
 ------------
 ```

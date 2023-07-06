@@ -19,7 +19,21 @@ data
 2) Download Wikiart dataset. 
 You can download [WikiArt](https://github.com/cs-chan/ArtGAN/blob/master/WikiArt%20Dataset/README.md) this link.
 Also, you can find the WikiArt files other Stylization-NeRF-Project.  
-
+```
+wikiart
+├── train                    
+│   ├── [style_name1].jpg
+|   ├── [style_name2].jpg
+│   ├── [style_name3].jpg            
+│   └── ...
+│
+├── test
+│   ├── [test_name1].jpg
+|   ├── [test_name2].jpg
+│   ├── [test_name3].jpg            
+│   └── ...
+```
+  
 # Training 
 ### Geometric training
 ------------

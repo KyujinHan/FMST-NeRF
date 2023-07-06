@@ -32,7 +32,7 @@ Also, you can find the WikiArt files other Stylization-NeRF-Project.
 
 # Performance (Soon update)
 ------------  
-LPIPS  
+**1) LPIPS**
 - Short consistency score (2 frames)
   
 | Method | Fern | Flower | Horns | Orchids | Trex | Leaves |
@@ -58,11 +58,11 @@ LPIPS
 | `Ours` | 0.4065 | **0.3167** | 0.3979 | 0.4108 | 0.2895 | **0.2911** |  
 
 ------------  
-2) User Study
+**2) User Study**
 
 
 ------------  
-3) Style results (Some examples; In github 10MB size limit issue, so we crop the files.)
+**3) Style results** (Some examples; In github 10MB size limit issue, so we crop the files.)
 - **Fern, Trex, Leaves, Room**  
 ![Ours_fern_056_video](https://github.com/KyujinHan/FST-NeRF/assets/98331298/f8a7f0ef-d2c4-49b4-a32a-1280669d0930)
 ![Ours_trex_056](https://github.com/KyujinHan/FST-NeRF/assets/98331298/ca10fcb6-10c8-4f04-9594-54da19e24e63)

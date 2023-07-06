@@ -67,11 +67,19 @@ LPIPS
 ![ezgif com-gif-maker](https://github.com/KyujinHan/FST-NeRF/assets/98331298/2df947f0-6522-4310-9936-eb782512a7b8)
   
 - Flower
+ 
 
+https://github.com/KyujinHan/FST-NeRF/assets/98331298/b218fee0-42bf-439a-bae7-58d811cc1c7e
+
+
+  
 - Horn
-https://github.com/KyujinHan/FST-NeRF/assets/98331298/f2254bdb-bddc-4eeb-9255-02356124decb  
 
 
+https://github.com/KyujinHan/FST-NeRF/assets/98331298/381aa559-d44e-4f45-bea4-2deb653d7132
+
+
+  
 # Citation
 ```
 (Soon update)

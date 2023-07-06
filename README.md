@@ -17,7 +17,7 @@ data
 ```
   
 **2) Download Wikiart dataset.**  
-You can download [WikiArt](https://github.com/cs-chan/ArtGAN/blob/master/WikiArt%20Dataset/README.md) this link.
+You can download [WikiArt](https://github.com/cs-chan/ArtGAN/blob/master/WikiArt%20Dataset/README.md) this link.  
 Also, you can find the WikiArt files other Stylization-NeRF-Project.  
 ```
 wikiart

@@ -94,7 +94,7 @@ python run_nerf2.py --config configs/fern.txt --finest_res 512 --log2_hashmap_si
 
 
 ------------  
-**3) Style results** (Some examples; In github 10MB size limit issue, so we crop the files.)
+**3) Style results** (Some examples; In github 10MB size limit issue, so we cut the files.)
 - **Fern, Trex, Leaves, Room**  
 ![Ours_fern_056_video](https://github.com/KyujinHan/FST-NeRF/assets/98331298/f8a7f0ef-d2c4-49b4-a32a-1280669d0930)
 ![Ours_trex_056](https://github.com/KyujinHan/FST-NeRF/assets/98331298/ca10fcb6-10c8-4f04-9594-54da19e24e63)

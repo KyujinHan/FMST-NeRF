@@ -67,6 +67,8 @@ LPIPS
 ```
   
 # References
-[HashNeRF](https://github.com/yashbhalgat/HashNeRF-pytorch)
-[HyperNetwork](https://github.com/vsitzmann/scene-representation-networks)
-[VAE](https://github.com/RoyalVane/ASM)
+[HashNeRF](https://github.com/yashbhalgat/HashNeRF-pytorch)  
+[HyperNetwork](https://github.com/vsitzmann/scene-representation-networks)  
+[VAE](https://github.com/RoyalVane/ASM)  
+[Style3D](https://github.com/ztex08010518/Stylizing-3D-Scene)  
+[NeRF](https://github.com/yenchenlin/nerf-pytorch)  

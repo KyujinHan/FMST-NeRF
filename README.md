@@ -57,7 +57,6 @@ python run_nerf2.py --config configs/fern.txt --finest_res 512 --log2_hashmap_si
 ```
   
 # Testing
-------------
 You must change the `Stylization(Second) training` folder name like `'second_0'`.
 And, implement below code.
 ```
@@ -65,8 +64,7 @@ python run_nerf2.py --config configs/fern.txt --finest_res 512 --log2_hashmap_si
 # If you want render test images, python run_nerf2.py --config configs/fern.txt --finest_res 512 --log2_hashmap_size 24 --lrate2 0.001 --stage second --no_batching --render_only --render_test
 ```
 
-# Performance (Soon update)
-------------  
+# Performance (Soon update)  
 **1) LPIPS**
 - Short consistency score (2 frames)
   
@@ -91,7 +89,6 @@ python run_nerf2.py --config configs/fern.txt --finest_res 512 --log2_hashmap_si
 | `UPST` | **0.3969** | 0.3362 | NaN | NaN | NaN | 0.3081 |  
 | `StyleRF` | NaN | 0.3543 | 0.4432 | 0.4557 | 0.3397 | NaN |  
 | `Ours` | 0.4065 | **0.3167** | 0.3979 | 0.4108 | 0.2895 | **0.2911** |  
-
 ------------  
 **2) User Study**
 

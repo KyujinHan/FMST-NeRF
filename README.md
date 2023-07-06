@@ -1,8 +1,9 @@
 # [FST-NeRF](soon)
-3D Real Scene Style Transfer of Neural Radiance Fields with Hash Encoding and HyperNet
+3D Real Scene Style Transfer of Neural Radiance Fields with Hash Encoding and HyperNet.
+Fast Styles Training of Neural Radiance Fields for 3D Real Scene.  
 
 # Abstract
-(Soon)  
+(Code update Soon)  
 
 # Dataset
 **1) Download LLFF dataset.**  

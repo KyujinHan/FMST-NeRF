@@ -66,13 +66,11 @@ LPIPS
 - **Room**  
 ![ezgif com-gif-maker](https://github.com/KyujinHan/FST-NeRF/assets/98331298/2df947f0-6522-4310-9936-eb782512a7b8)
   
-- Trex
-
 - Flower
 
 - Horn
-
-
+![horn_video](https://github.com/KyujinHan/FST-NeRF/assets/98331298/06bc75cd-784b-497a-8f9b-7467e206f864)
+  
 # Citation
 ```
 (Soon update)

@@ -5,7 +5,7 @@
 (Soon)  
 
 # Dataset
-1) Download LLFF dataset.  
+**1) Download LLFF dataset.**
 You can download [NeRF_llff_Dataset](https://drive.google.com/drive/folders/128yBriW1IG_3NJ5Rp7APSTZsJqdJdfc1) this link.
 ```
 data
@@ -16,7 +16,7 @@ data
 │   └── ...
 ```
   
-2) Download Wikiart dataset. 
+**2) Download Wikiart dataset.**
 You can download [WikiArt](https://github.com/cs-chan/ArtGAN/blob/master/WikiArt%20Dataset/README.md) this link.
 Also, you can find the WikiArt files other Stylization-NeRF-Project.  
 ```

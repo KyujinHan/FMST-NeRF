@@ -35,7 +35,7 @@ wikiart
 │   └── ...
 ```
   
-# Training(For example, fern training.)
+# Training(Pytorch; For example, fern training.)
 ### Download VAE pre-weights.
 We provide [VAE pre-weights](Not yet).  
 Download files, and input `./pretrained` folder.

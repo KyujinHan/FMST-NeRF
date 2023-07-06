@@ -65,7 +65,7 @@ LPIPS
 3) Style results (Some examples; In github 10MB size limit issue, so we crop the files.)
 - **Fern, Trex, Leaves, Room**  
 ![Ours_fern_056_video](https://github.com/KyujinHan/FST-NeRF/assets/98331298/f8a7f0ef-d2c4-49b4-a32a-1280669d0930)
-![Ours_trex_056](https://github.com/KyujinHan/FST-NeRF/assets/98331298/ca10fcb6-10c8-4f04-9594-54da19e24e63)  
+![Ours_trex_056](https://github.com/KyujinHan/FST-NeRF/assets/98331298/ca10fcb6-10c8-4f04-9594-54da19e24e63)
 ![Ours_leaves_056](https://github.com/KyujinHan/FST-NeRF/assets/98331298/d66c0c95-3f1b-4009-bc54-8b8ae0871cf8)
 ![ezgif com-gif-maker](https://github.com/KyujinHan/FST-NeRF/assets/98331298/2df947f0-6522-4310-9936-eb782512a7b8)  
 

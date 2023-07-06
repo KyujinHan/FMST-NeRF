@@ -42,7 +42,7 @@ Download files, and input `./pretrained` folder.
 ```
 pretrained
 ├── nerf_llff_data                    
-│   ├── fc_encoder_iter_160000.pth
+│   ├── fc_encoder.pth
 |   └── vgg_normalised.pth  
 ```
 ------------

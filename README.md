@@ -69,8 +69,9 @@ LPIPS
 - Flower
 
 - Horn
-![horn_video](https://github.com/KyujinHan/FST-NeRF/assets/98331298/06bc75cd-784b-497a-8f9b-7467e206f864)
-  
+https://github.com/KyujinHan/FST-NeRF/assets/98331298/f2254bdb-bddc-4eeb-9255-02356124decb  
+
+
 # Citation
 ```
 (Soon update)

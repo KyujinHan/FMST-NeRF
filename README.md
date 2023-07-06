@@ -45,15 +45,13 @@ pretrained
 │   ├── fc_encoder_iter_160000.pth
 |   └── vgg_normalised.pth  
 ```
-
-### Geometric training
 ------------
+### Geometric training
 ```
 python run_nerf2.py --config configs/fern.txt --finest_res 512 --log2_hashmap_size 24 --lrate 0.01 --stage first
 ```
-  
-### Stylization training
 ------------
+### Stylization training
 ```
 python run_nerf2.py --config configs/fern.txt --finest_res 512 --log2_hashmap_size 24 --lrate2 0.001 --stage second --no_batching
 ```

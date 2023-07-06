@@ -29,19 +29,19 @@ Also, you can find the WikiArt files other Stylization-NeRF-Project.
 # Performance (Soon update)
 1) LPIPS
 - Short consistency score (2 frames)
+  
 | Method | Fern | Flower | Horns | Orchids | Trex | Leaves |
 | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- |
 | `MCCNet` | 0.1950 | 0.1541 | 0.1903 | 0.2220 | 0.1246 | 0.1306 |
 | `ReReVST` | 0.2178 | 0.2093 | 0.2295 | 0.2770 | 0.1976 | 0.1776 |  
 | `AdaIN` | 0.1498 | 0.1815 | 0.2443 | 0.2682 | 0.1899 | 0.1349 |
-
-
 | `ARF` | 0.1600 | 0.1454 | 0.1786 | 0.2301 | 0.1041 | 0.1154 |
 | `UPST` | 0.1246 | 0.1222 | NaN | NaN | NaN | 0.0931 |
 | `StyleRF` | NaN | 0.1493 | 0.1957 | 0.2358 | 0.1225 | NaN |
 | `Ours` | 0.1291 | 0.1217 | 0.1454 | 0.2101 | 0.0879 | 0.0879 |  
   
 - Long consistency score (10 frames)
+  
 | Method | Fern | Flower | Horns | Orchids | Trex | Leaves |
 | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- |
 | `MCCNet` | 0.4741 | 0.3693 | 0.4216 | 0.4468 | 0.3276 | 0.3655 |

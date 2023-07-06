@@ -34,15 +34,27 @@ wikiart
 │   └── ...
 ```
   
-# Training 
+# Training(For example, fern training.)
 ### Geometric training
 ------------
-
+```
+python run_nerf2.py --config configs/fern.txt --finest_res 512 --log2_hashmap_size 24 --lrate 0.01 --stage first
+```
+  
 ### Stylization training
 ------------
-
+```
+python run_nerf2.py --config configs/fern.txt --finest_res 512 --log2_hashmap_size 24 --lrate2 0.001 --stage second --no_batching
+```
+  
 # Testing
-(Soon)  
+------------
+You must change the `Stylizagion training` folder name like `second_0`.
+And, implement below code.
+```
+python run_nerf2.py --config configs/fern.txt --finest_res 512 --log2_hashmap_size 24 --lrate2 0.001 --stage second --no_batching --render_only
+# If you want render test images, python run_nerf2.py --config configs/fern.txt --finest_res 512 --log2_hashmap_size 24 --lrate2 0.001 --stage second --no_batching --render_only --render_test
+```
 
 # Performance (Soon update)
 ------------  

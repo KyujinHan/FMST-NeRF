@@ -48,12 +48,12 @@ pretrained
 ------------
 ### Geometric training
 ```
-python run_nerf2.py --config configs/fern.txt --finest_res 512 --log2_hashmap_size 24 --lrate 0.01 --stage first
+python run_nerf2.py --config configs/fern.txt --finest_res 1024 --log2_hashmap_size 24 --lrate 0.01 --stage first
 ```
 ------------
 ### Stylization training
 ```
-python run_nerf2.py --config configs/fern.txt --finest_res 512 --log2_hashmap_size 24 --lrate2 0.001 --stage second --no_batching
+python run_nerf2.py --config configs/fern.txt --finest_res 1024 --log2_hashmap_size 24 --lrate2 0.001 --stage second --no_batching
 ```
   
 # Testing

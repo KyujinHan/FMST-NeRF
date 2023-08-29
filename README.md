@@ -1,4 +1,5 @@
 # [FMST-NeRF](soon)
+![image](./model_figure.png)  
 3D Real Scene Style Transfer of Neural Radiance Fields with Hash Encoding and HyperNet.  
 Fast Multiple Styles Training of Neural Radiance Fields for 3D Real Scene.  
   

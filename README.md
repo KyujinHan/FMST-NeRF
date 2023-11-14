@@ -100,7 +100,8 @@ python run_nerf2.py --config configs/fern.txt --finest_res 512 --log2_hashmap_si
 | `ARF vs Ours` | 76.3% | 55.8% |
 | `UPST vs Ours` | 65.0% | 61.5% |
 | `StyleRF vs Ours` | 83.5% | 64.7% |
-> We collect 1200 votes for each comparison with previeous model. (100 participants, 6 scenes, and 2 criteria; 3 months of online and offline voting.)  
+> We collect 1200 votes for each comparison with previeous model.
+> (100 participants, 6 scenes, and 2 criteria; 3 months of online and offline voting.)  
 
 ------------  
 **3) Style results** (Some examples; In github 10MB size limit issue, so we cut the files.)

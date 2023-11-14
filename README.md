@@ -67,7 +67,8 @@ python run_nerf2.py --config configs/fern.txt --finest_res 512 --log2_hashmap_si
 
 # Performance (Soon update)  
 **1) LPIPS Score**
-- Short consistency score (5 frames)  
+- Short consistency score (5 frames)
+  
 | Method | Fern | Flower | Horns | Orchids | Trex | Leaves |
 | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- |
 | `MCCNet` | 0.1950 | 0.1541 | 0.1903 | 0.2220 | 0.1246 | 0.1306 |
@@ -78,7 +79,8 @@ python run_nerf2.py --config configs/fern.txt --finest_res 512 --log2_hashmap_si
 | `StyleRF` | 0.1733 | 0.1493 | 0.1957 | 0.2358 | 0.1225 | 0.1370 |
 | `Ours` | 0.1291 | **0.1217** | 0.1454 | **0.2101** | **0.0879** | **0.0879** |  
    
-- Long consistency score (10 frames)  
+- Long consistency score (10 frames)
+  
 | Method | Fern | Flower | Horns | Orchids | Trex | Leaves |
 | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- |
 | `MCCNet` | 0.4741 | 0.3693 | 0.4216 | 0.4468 | 0.3276 | 0.3655 |

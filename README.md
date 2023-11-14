@@ -65,7 +65,7 @@ python run_nerf2.py --config configs/fern.txt --finest_res 512 --log2_hashmap_si
 # python run_nerf2.py --config configs/fern.txt --finest_res 512 --log2_hashmap_size 24 --lrate2 0.001 --stage second --no_batching --render_only --render_test
 ```
 
-# Performance (Soon update)  
+# Performance  
 **1) LPIPS Score**
 - Short consistency score (5 frames)
   

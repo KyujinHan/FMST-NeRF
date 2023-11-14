@@ -97,9 +97,9 @@ python run_nerf2.py --config configs/fern.txt --finest_res 512 --log2_hashmap_si
 | ------------- | -------------: | -------------: |
 | `AdaIN vs Ours` | 65.7% | 82.5% | 
 | `MCCNet vs Ours` | 52.8% | 71.2% |
-| `ARF vs Ours` | 76.3% | 55.8% |
-| `UPST vs Ours` | 65.0% | 61.5% |
-| `StyleRF vs Ours` | 83.5% | 64.7% |
+| `ARF vs Ours` | 55.8% | 76.3% |
+| `UPST vs Ours` | 61.5% | 65.0% |
+| `StyleRF vs Ours` | 64.7% | 83.5% |
 > We collect 1200 votes for each comparison with previeous model.  
 > (100 participants, 6 scenes, and 2 criteria; 3 months of online and offline voting.)  
 

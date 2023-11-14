@@ -1,10 +1,9 @@
 # [FMST-NeRF](soon)
 ![image](./model_figure.png)  
-3D Real Scene Style Transfer of Neural Radiance Fields with Hash Encoding and HyperNet.  
-Fast Multiple Styles Training of Neural Radiance Fields for 3D Real Scene.  
+Fast Multi-Style Transfer of Neural Radiance Fields for 3D Real-Scene.   
   
-# Abstract
-(Code update Soon)  
+# Abstract (will change)
+We present Fast Multi-Style Transfer of Neural Radiance Fields, a novel approach for stylizing arbitrary views of a 3D scene. Previous stylization methods using neuronal radiation fields can effectively predict the colors of a 3D stylized scene by combining the features of the style image with the multi-view image to transform the style features. However, these methods cannot simultaneously satisfy the important factors of stylization: zero-shot, consistency, training speed, and computational cost. Our approach method proposes a 3D real-scene stylization method that satisfies all these important factors. We first utilize hash-encoding and spherical harmonics-encoding to effectively train geometric information about the multi-view of a 3D scene. Then, we use hypernetwork to optimize the geometric features from the encoding with the feature vector of the style. Our method extends 2D style features to 3D scenes based on precise geometric information, enabling zero-shot learning while maintaining consistency. Moreover, our method takes about 3 hours to generate a stylized novel view on a modern GPU. Experimental results demonstrate that our method is superior and more effective than existing methods.  
 
 # Dataset
 **1) Download LLFF dataset.**  
@@ -35,11 +34,11 @@ wikiart
 │   ├── [test_name3].jpg            
 │   └── ...
 ```
-  
-# Training(Pytorch; For example, horn training.)
+   
+# Training(Pytorch; Horn training.)
 ### Download VAE pre-weights.
-We provide [VAE pre-weights](Not yet).  
-Download files, and input `./pretrained` folder.
+You can train VAE model [here](https://github.com/RoyalVane/ASM/tree/main/RAIN).  
+Download files, and input `./pretrained` folder.  
 ```
 pretrained
 ├── nerf_llff_data                    
@@ -62,13 +61,13 @@ You must change the `Stylization(Second) training` folder name like `'second_0'`
 And, implement below code.
 ```
 python run_nerf2.py --config configs/fern.txt --finest_res 512 --log2_hashmap_size 24 --lrate2 0.001 --stage second --no_batching --render_only
-# If you want render test images, python run_nerf2.py --config configs/fern.txt --finest_res 512 --log2_hashmap_size 24 --lrate2 0.001 --stage second --no_batching --render_only --render_test
+# If you want render test images,
+# python run_nerf2.py --config configs/fern.txt --finest_res 512 --log2_hashmap_size 24 --lrate2 0.001 --stage second --no_batching --render_only --render_test
 ```
 
 # Performance (Soon update)  
-**1) LPIPS**
-- Short consistency score (2 frames)
-  
+**1) LPIPS Score**
+- Short consistency score (5 frames)  
 | Method | Fern | Flower | Horns | Orchids | Trex | Leaves |
 | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- |
 | `MCCNet` | 0.1950 | 0.1541 | 0.1903 | 0.2220 | 0.1246 | 0.1306 |
@@ -78,9 +77,8 @@ python run_nerf2.py --config configs/fern.txt --finest_res 512 --log2_hashmap_si
 | `UPST` | **0.1246** | 0.1222 | **0.1306** | 0.2226 | 0.0951 | 0.0931 |
 | `StyleRF` | 0.1733 | 0.1493 | 0.1957 | 0.2358 | 0.1225 | 0.1370 |
 | `Ours` | 0.1291 | **0.1217** | 0.1454 | **0.2101** | **0.0879** | **0.0879** |  
-  
-- Long consistency score (10 frames)
-  
+   
+- Long consistency score (10 frames)  
 | Method | Fern | Flower | Horns | Orchids | Trex | Leaves |
 | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- |
 | `MCCNet` | 0.4741 | 0.3693 | 0.4216 | 0.4468 | 0.3276 | 0.3655 |
@@ -90,31 +88,20 @@ python run_nerf2.py --config configs/fern.txt --finest_res 512 --log2_hashmap_si
 | `UPST` | **0.3969** | 0.3362 | **0.3771** | 0.4379 | 0.3054 | 0.3081 |  
 | `StyleRF` | 0.4250 | 0.3543 | 0.4432 | 0.4557 | 0.3397 | 0.3794 |  
 | `Ours` | 0.4065 | **0.3167** | 0.3979 | **0.4108** | **0.2895** | **0.2911** |  
-
+  
 ------------  
 **2) User Study**
-
-
+| Previous_model vs Ours | Stylization(win rate%) | Consistency(win rate%) |
+| ------------- | ------------- | ------------- |
+| `AdaIN vs Ours` | 65.7% | 82.5% | 
+| `MCCNet vs Ours` | 52.8% | 71.2% |
+| `ARF vs Ours` | 76.3% | 55.8% |
+| `UPST vs Ours` | 65.0% | 61.5% |
+| `StyleRF vs Ours` | 83.5% | 64.7% |  
+  
 ------------  
 **3) Style results** (Some examples; In github 10MB size limit issue, so we cut the files.)
-- **Fern, Trex, Leaves, Room**  
-![Ours_fern_056_video](https://github.com/KyujinHan/FST-NeRF/assets/98331298/f8a7f0ef-d2c4-49b4-a32a-1280669d0930)
-![Ours_trex_056](https://github.com/KyujinHan/FST-NeRF/assets/98331298/ca10fcb6-10c8-4f04-9594-54da19e24e63)
-![Ours_leaves_056](https://github.com/KyujinHan/FST-NeRF/assets/98331298/d66c0c95-3f1b-4009-bc54-8b8ae0871cf8)
-![ezgif com-gif-maker](https://github.com/KyujinHan/FST-NeRF/assets/98331298/2df947f0-6522-4310-9936-eb782512a7b8)  
-
   
-- **Flower**
- 
-
-https://github.com/KyujinHan/FST-NeRF/assets/98331298/b218fee0-42bf-439a-bae7-58d811cc1c7e
-
-
-  
-- **Horn**
-
-
-https://github.com/KyujinHan/FST-NeRF/assets/98331298/381aa559-d44e-4f45-bea4-2deb653d7132
 
 
   

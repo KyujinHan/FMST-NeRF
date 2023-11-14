@@ -94,7 +94,7 @@ python run_nerf2.py --config configs/fern.txt --finest_res 512 --log2_hashmap_si
 ------------  
 **2) User Study**
 | Previous_model vs Ours | Stylization(win rate%) | Consistency(win rate%) |
-| ------------- | -------------: | -------------: |
+| -------------: | -------------: | -------------: |
 | `AdaIN vs Ours` | 65.7% | 82.5% | 
 | `MCCNet vs Ours` | 52.8% | 71.2% |
 | `ARF vs Ours` | 55.8% | 76.3% |

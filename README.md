@@ -112,7 +112,7 @@ python run_nerf2.py --config configs/fern.txt --finest_res 512 --log2_hashmap_si
 ![image](./images/Horn_sample.png)  
 
 - Fern & Flower samples
-![image](./images/fern_flower.png)
+![image](./images/fern_flower_sample.png)
 
 - Ablation study: **hash table size T**
 ![image](./images/hash_table.png)

@@ -1,6 +1,6 @@
 # [FMST-NeRF](soon)
 ![image](./model_figure.png)  
-Fast Multi-Style Transfer of Neural Radiance Fields for 3D Real-Scene.   
+Fast Multi-Style Transfer of Neural Radiance Fields for 3D Real-Scene. (Reviewing Paper...)  
   
 # Abstract (will change)
 We present Fast Multi-Style Transfer of Neural Radiance Fields, a novel approach for stylizing arbitrary views of a 3D scene. Previous stylization methods using neuronal radiation fields can effectively predict the colors of a 3D stylized scene by combining the features of the style image with the multi-view image to transform the style features. However, these methods cannot simultaneously satisfy the important factors of stylization: zero-shot, consistency, training speed, and computational cost. Our approach method proposes a 3D real-scene stylization method that satisfies all these important factors. We first utilize hash-encoding and spherical harmonics-encoding to effectively train geometric information about the multi-view of a 3D scene. Then, we use hypernetwork to optimize the geometric features from the encoding with the feature vector of the style. Our method extends 2D style features to 3D scenes based on precise geometric information, enabling zero-shot learning while maintaining consistency. Moreover, our method takes about 3 hours to generate a stylized novel view on a modern GPU. Experimental results demonstrate that our method is superior and more effective than existing methods.  

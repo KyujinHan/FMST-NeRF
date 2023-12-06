@@ -120,8 +120,7 @@ python run_nerf2.py --config configs/fern.txt --finest_res 512 --log2_hashmap_si
   
 # TODO
 - [ ] Share Code
-- [ ] Share results with video or gif format
-- [ ] Make github.io
+- [x] Share results
 - [x] Share perforamce table
 - [x] Share user study
   

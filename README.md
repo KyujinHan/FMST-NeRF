@@ -36,7 +36,7 @@ wikiart
 ```
    
 # Training(Pytorch; Horn training.)
-### Download VAE pre-weights.
+### Download VAE pre-weights. [Our pretrained weight(share)](soon...)  
 You can train VAE model [here](https://github.com/RoyalVane/ASM/tree/main/RAIN).  
 Download files, and input `./pretrained` folder.  
 ```

@@ -36,7 +36,7 @@ wikiart
 ```
    
 # Training(Pytorch; Horn training.)
-### Download VAE pre-weights. [Our pretrained weight(share)](soon...)  
+### Download VAE pre-weights. [Our pretrained weight(share)](https://drive.google.com/drive/folders/1M6XTMKLwpJATXXEOArgbjP2e8ps1ogE-?usp=sharing)   
 You can train VAE model [here](https://github.com/RoyalVane/ASM/tree/main/RAIN).  
 Download files, and input `./pretrained` folder.  
 ```
@@ -104,9 +104,20 @@ python run_nerf2.py --config configs/fern.txt --finest_res 512 --log2_hashmap_si
 > (100 participants, 6 scenes, and 2 criteria; 3 months of online and offline voting.)  
 
 ------------  
-**3) Style results** (Some examples; In github 10MB size limit issue, so we cut the files.)
-(Update soon)  
+**3) Style results**  
+- Photorealistic results
+![image](./images/photoreal.png)
+   
+- Horn samples
+![image](./images/Horn_sample.png)  
 
+- Fern & Flower samples
+![image](./images/fern_flower.png)
+
+- Ablation study: **hash table size T**
+![image](./images/hash_table.png)
+> The higher hash table size T, the more style quality.  
+  
 # TODO
 - [ ] Share Code
 - [ ] Share results with video or gif format
